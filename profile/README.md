@@ -13,7 +13,7 @@ SrcLaunch is a platform built with the goal of eliminating repetitive software e
 | 🚧 | In-Progress | Features with defined specs that are currently being worked on.|
 | ✅ | Complete | Features whose requirements have been met, and have been released.
 
-#### DX
+### DX
 
 Developer Experience features that help in configuring the development environment around best practices for the specific platform or build target. 
 
@@ -30,7 +30,7 @@ Developer Experience features that help in configuring the development environme
 | **Static Typing** || ✅ |  |
 ||TypeScript| ✅ ||
     
-#### Core Objects
+### Core Objects
 
 Core Objects are business-case specific custom objects that make up the data layer of a SrcLaunch application or service.
 
@@ -44,32 +44,32 @@ Core Objects are business-case specific custom objects that make up the data lay
 ||`sequelize-models`| ✅ | Sequelize model definitions.
 ||`types`| ✅ | TypeScript type definitions for Core Objects.
 
-#### Infrastructure
+### Infrastructure
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### Logging
+### Logging
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### Exception Handling
+### Exception Handling
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### Accessibility
+### Accessibility
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### Internationalization
+### Internationalization
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### UI Component Library
+### UI Component Library
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
