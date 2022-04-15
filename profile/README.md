@@ -30,8 +30,6 @@ Developer Experience features that help in configuring the development environme
 | **Static Typing** || ✅ |  |
 ||TypeScript| ✅ ||
     
----
-
 #### Core Objects
 
 Core Objects are business-case specific custom objects that make up the data layer of a SrcLaunch application or service.
