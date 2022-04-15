@@ -10,8 +10,8 @@ SrcLaunch is a platform built with the goal of eliminating repetitive software e
 | Icon | Status | Description |
 |:----:|:-------|:------------|
 | 💡 | Idea | Idea for a feature that needs requirement gathering and validation.|
-| 🚧 | In-Progress | Feature with defined specs that is currently being worked on.|
-| ✅ | Complete | Feature whose requirements have been met, and has been integrated into the release.
+| 🚧 | In-Progress | Features with defined specs that are currently being worked on.|
+| ✅ | Complete | Features whose requirements have been met, and have been released.
 
 #### DX
 
@@ -56,7 +56,22 @@ Core Objects are business-case specific custom objects that make up the data lay
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
 
-#### Logging
+#### Exception Handling
+
+| Feature | Sub-features | Status | Description |
+|:--------|:-------------|:------:|:------------|
+
+#### Accessibility
+
+| Feature | Sub-features | Status | Description |
+|:--------|:-------------|:------:|:------------|
+
+#### Internationalization
+
+| Feature | Sub-features | Status | Description |
+|:--------|:-------------|:------:|:------------|
+
+#### UI Component Library
 
 | Feature | Sub-features | Status | Description |
 |:--------|:-------------|:------:|:------------|
