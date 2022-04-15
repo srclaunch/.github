@@ -117,6 +117,7 @@ Track user interactions and behavior.
 CLI tool for managing SrcLaunch Workspaces and Projects.
 
 **Stability:** 🟢 Stable
+**Features:**
 **Todo:**
   - [ ] Generate models RTK Query bindings
   
@@ -272,7 +273,10 @@ Utilities for transforming data from one type to another
 ### [@srclaunch/types](https://github.com/srclaunch/types)
 
 TypeScript definitions for SrcLaunch workspaces, projects, apps and services.
+
 **Stability:** 🟢 Stable
+
+---
 
 ### [@srclaunch/ui](https://github.com/srclaunch/ui)
 
@@ -292,7 +296,7 @@ Form/value validation library.
 
 ### [@srclaunch/web-application-state](https://github.com/srclaunch/cli)
 
-Redux state definitions and utilities.
+Redux state implementation and utilities.
 
 **Stability:** 🟢 Stable
 
