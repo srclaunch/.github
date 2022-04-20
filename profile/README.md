@@ -114,6 +114,8 @@ Track user interactions and behavior.
 ---
 ### [@srclaunch/cli](https://github.com/srclaunch/cli)
 
+![Issues](https://img.shields.io/github/issues/srclaunch/cli?label=Issues) ![Build](https://github.com/srclaunch/cli/actions/workflows/publish.yml/badge.svg)
+
 CLI tool for managing SrcLaunch Workspaces and Projects.
 
 **Stability:** 🟢 Stable
@@ -209,6 +211,8 @@ Documentation generation utilties for React component libraries, API blueprints,
 
 Logging utilities for both console logging and logging to cloud services. Integrates fully with all other SrcLaunch libraries.
 
+![Issues](https://img.shields.io/github/issues/srclaunch/logger?label=Issues) ![Build](https://github.com/srclaunch/logger/actions/workflows/publish.yml/badge.svg)
+
 **Stability:** 🟢 Stable
 
 ---
@@ -273,6 +277,8 @@ Utilities for transforming data from one type to another
 ### [@srclaunch/types](https://github.com/srclaunch/types)
 
 TypeScript definitions for SrcLaunch workspaces, projects, apps and services.
+
+![Issues](https://img.shields.io/github/issues/srclaunch/types?label=Issues) ![Build](https://github.com/srclaunch/types/actions/workflows/publish.yml/badge.svg)
 
 **Stability:** 🟢 Stable
 
