@@ -159,6 +159,8 @@ Re-usable development environment configurations (linting, testing, build, etc) 
 
 ### [@srclaunch/exceptions](https://github.com/srclaunch/exceptions)
 
+![Issues](https://img.shields.io/github/issues/srclaunch/exceptions?label=Issues) ![Build](https://github.com/srclaunch/exceptions/actions/workflows/publish.yml/badge.svg)
+
 Exception handling and remediation utilities and helpers.
 
 **Stability:** 🟢 Stable
@@ -209,9 +211,9 @@ Documentation generation utilties for React component libraries, API blueprints,
 
 ### [@srclaunch/logger](https://github.com/srclaunch/logger)
 
-Logging utilities for both console logging and logging to cloud services. Integrates fully with all other SrcLaunch libraries.
-
 ![Issues](https://img.shields.io/github/issues/srclaunch/logger?label=Issues) ![Build](https://github.com/srclaunch/logger/actions/workflows/publish.yml/badge.svg)
+
+Logging utilities for both console logging and logging to cloud services. Integrates fully with all other SrcLaunch libraries.
 
 **Stability:** 🟢 Stable
 
