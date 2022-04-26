@@ -1,4 +1,4 @@
-![SrcLaunch Logo](logo.svg)
+![SrcLaunch Logo](https://github.com/srclaunch/.github/blob/main/profile/logo.svg)
 
 ![GitHub followers](https://img.shields.io/github/followers/srclaunch?style=social) ![Stars](https://img.shields.io/github/stars/srclaunch?style=social) 
 
