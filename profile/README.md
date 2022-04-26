@@ -1,4 +1,4 @@
-# SrcLaunch
+![SrcLaunch Logo](logo.svg)
 
 ![GitHub followers](https://img.shields.io/github/followers/srclaunch?style=social) ![Stars](https://img.shields.io/github/stars/srclaunch?style=social) 
 
@@ -133,7 +133,7 @@ Accessibility utilities and helpers.
 
 Actions (send an email, submit a form, create a record, etc) that can be invoked by SrcLaunch applications, services, tasks and pipelines. 
 
-[![Issues](https://img.shields.io/github/issues/srclaunch/a11y?label=Issues)](https://github.com/srclaunch/a11y/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/a11y?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/a11y) [![Build](https://github.com/srclaunch/a11y/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/a11y/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/a11y?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/a11y)
+[![Issues](https://img.shields.io/github/issues/srclaunch/actions?label=Issues)](https://github.com/srclaunch/actions/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/actions?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/actions) [![Build](https://github.com/srclaunch/actions/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/actions/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/actions?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/actions)
 
 ---
 
@@ -287,6 +287,16 @@ Build, deployment, and other pipeline configurations and utilities.
 Create tasks and assign to job queues for asynchronous long-running task handling.
 
 [![Issues](https://img.shields.io/github/issues/srclaunch/queues?label=Issues)](https://github.com/srclaunch/queues/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/queues?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/queues) [![Build](https://github.com/srclaunch/queues/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/queues/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/queues?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/queues)
+
+---
+
+### [@srclaunch/react-hooks](https://github.com/srclaunch/react-hooks)
+
+![Stars](https://img.shields.io/github/stars/srclaunch/react-hooks?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/react-hooks?style=social)
+
+React hooks used in AppLab applications
+
+[![Issues](https://img.shields.io/github/issues/srclaunch/react-hooks?label=Issues)](https://github.com/srclaunch/react-hooks/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/react-hooks?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/react-hooks) [![Build](https://github.com/srclaunch/react-hooks/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/react-hooks/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/react-hooks?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/react-hooks)
 
 ---
 
