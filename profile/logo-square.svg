@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg viewBox="0 0 72px 72px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-    baseProfile="full">
+<svg viewBox="0 0 84px 156px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" baseProfile="full">
     <g style="transform: rotate(45deg) translate(72px, -72px);">
         <polygon fill="#7700ff" points="12 12, 12 72, 72 72, 72 60, 24 60, 24 12" />
         <polygon fill="#cccccc" points="36 12, 36 24, 60 24, 60 48, 72 48, 72 12" />
