@@ -4,7 +4,22 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/srclaunch?style=social) ![Stars](https://img.shields.io/github/stars/srclaunch?style=social) 
 
-SrcLaunch is a platform built with the goal of eliminating repetitive software engineering tasks so engineers can focus on releasing features.
+SrcLaunch is a platform built with the goal of eliminating repetitive software engineering tasks so engineers 
+can focus on releasing features. 
+
+Currently, work is focused on finishing the SrcLaunch CLI application which can
+be used to used to quickly create SrcLaunch projects from templates that are created
+for the specific use-case and pre-configured with tooling and project code scaffolding
+that help support software engineering best practices and quick feature iteration.
+
+The SrcLaunch Core Web Application is used to manage and configure a business or 
+individual's organization settings and integrations, along with the organization's 
+Workspaces and Projects. One click creation of projects with source control, 
+pipelines for continuous integration, and automated deployment is the paramount
+feature of SrcLaunch. 
+
+Ultimately the goal is full feature parity between the CLI application and
+the SrcLaunch Core Platform web application. 
 
 ## Features
 <!-- ###### Feature Statuses
@@ -46,21 +61,25 @@ You can create many types of projects with SrcLaunch, such as Web applications, 
 | API Server | Define routes, permissions and endpoint logic to quickly deploy a containerized service. |
 | CoreAPI Server | Configure data model source for automatic CRUD endpoint generation. |
 | Node.js Service | Write a Node.js service that runs continuously or on demand. |
-| Task Queue Service | Create a task queue service to handle asynchronous, long-running tasks. |
+| User Authentication | Create and configure a user authentication service with MFA and role based access control. Can be used to manage user access for any of your applications or services. |
+| Task Queue | Create a task queue service to handle asynchronous, long-running tasks. |
+| Webhook | Create a Webhook to handle events from 3rd party services and integrations. |
+| WebSocket Server | Send and receive data in real-time via WebSockets. |
 | Machine Learning Classifier | Write a machine learning classifier that can be deployed as a service. |
 | Webhook | Create a Webhook to handle events from 3rd party services and integrations. |
 | Pipeline | A Pipeline can be created to automate delivery of data between services based on customizable rules. |
+
+
 ### DX
 
 Developer Experience features that help in configuring the development environment around best practices for the specific platform or build target. 
 
 |  | Feature | Status | Description |
 |:---------|:--------|:------:|:------------|
-|**Linting**| |🚧 | Linter configurations for specific project types and targets.||
+|**Code Quality**| |🚧 | Code quality configurations for specific project types and targets.||
 ||ESLint| ✅ ||
 ||Prettier| ✅ ||
 ||Stylelint| ✅ ||
-|**Type Checking** | |  |
 ||TypeScript| ✅ ||
 |**Testing** | ||
 ||Ava | ✅ ||
