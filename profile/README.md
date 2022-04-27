@@ -23,42 +23,83 @@ SrcLaunch is a platform built with the goal of eliminating repetitive software e
 | 🚧 | In-Progress | Features with defined specs that are currently being worked on.|
 | ✅ | Complete | Features whose requirements have been met, and have been released. -->
 
+### Workspaces
+Workspaces are used to silo projects and organize them into logical groups for access control and cost tracking.
+
+### Projects
+You can create many types of projects with SrcLaunch, such as Web applications, Node.js services, and Machine Learning classifiers, among many others.
+
+#### Applications
+
+| Type | Description |
+|:-----|:------------|
+| Web Application | A browser based application that can be deployed as a static site or served and rendered using SSR. |
+| Mobile Application | iOS and Android applications. |
+| Desktop Applications | macOS, Windows, and Linux applications. |
+| CLI Application | A command line interface application. |
+| Universal Applications | Single codebase application that be can be used on all platforms. |
+
+#### Services
+
+| Type | Description |
+|:-----|:------------|
+| API Server | Define routes, permissions and endpoint logic to quickly deploy a containerized service. |
+| CoreAPI Server | Configure data model source for automatic CRUD endpoint generation. |
+| Node.js Service | Write a Node.js service that runs continuously or on demand. |
+| Task Queue Service | Create a task queue service to handle asynchronous, long-running tasks. |
+| Machine Learning Classifier | Write a machine learning classifier that can be deployed as a service. |
+| Webhook | Create a Webhook to handle events from 3rd party services and integrations. |
+| Pipeline | A Pipeline can be created to automate delivery of data between services based on customizable rules. |
 ### DX
 
 Developer Experience features that help in configuring the development environment around best practices for the specific platform or build target. 
 
-| Feature | Status | Description |
-|:--------|:------:|:------------|
-|**Linting**| 🚧 | Linter configurations for specific project types and targets.||
-|Commitlint| 🚧 ||
-|ESLint| ✅ ||
-|Prettier| ✅ ||
-|Stylelint| ✅ ||
-|Versionlint| 🚧 |
+|  | Feature | Status | Description |
+|:---------|:--------|:------:|:------------|
+|**Linting**| |🚧 | Linter configurations for specific project types and targets.||
+||ESLint| ✅ ||
+||Prettier| ✅ ||
+||Stylelint| ✅ ||
+|**Type Checking** | |  |
+||TypeScript| ✅ ||
 |**Testing** | ||
-|Ava | ✅ ||
-|Jest | ✅ ||
-|**Static Type Checking** | ✅ |  |
-|TypeScript| ✅ ||
-    
+||Ava | ✅ ||
+||Jest | ✅ ||
+|**Releasing**|||
+||Conventional Commits| 🚧 ||
+||Versionlint| 🚧 ||
+
 ### Core Objects
 
 Core Objects are business-case specific custom objects that make up the data layer of a SrcLaunch application or service.
 
-| Feature | Status | Description |
-|:--------|:------:|:------------|
-| **Data Modeling** | ✅ | Global data model definitions|
-| **Library Generation** | ✅ | Convenience libraries for performing CRUD operations on Core Objects.
-|`core-api`| ✅ | CoreAPI server configured with CRUD endpoints for Core Objects.
-|`http-client`| ✅ | Instance of HttpClient from `@srclaunch/http-client` with CRUD request endpoints configured for the CoreAPI.
-|`redux-state`| ✅ | Redux State and actions for managing Core Objects.
-|`sequelize-models`| ✅ | Sequelize model definitions.
-|`types`| ✅ | TypeScript type definitions for Core Objects.
+|  | Feature | Status | Description |
+|:-----|:--------|:------:|:------------|
+| **Data Modeling** | | | Global data model definitions|
+| **Code Generation** | | | Libraries for performing operations on Core Objects.
+||`core-api`| ✅ | CoreAPI server configured with CRUD endpoints for Core Objects.
+||`http-client`| ✅ | Instance of HttpClient from `@srclaunch/http-client` with CRUD request endpoints configured for the CoreAPI.
+||`redux-state`| ✅ | Redux State and actions for managing Core Objects.
+||`sequelize-models`| ✅ | Sequelize model definitions.
+||`types`| ✅ | TypeScript type definitions for Core Objects.
 
 ### Infrastructure
 
-| Feature | Sub-features | Status | Description |
+|  | Feature | Status | Description |
 |:--------|:-------------|:------:|:------------|
+|**Source Control**| | | |
+||Git||Integrates with Github, with support for GitLab planned.|
+||Templates||Get started quickly with a pre-configured and customizable project template.|
+|**Releases**| | | |
+||Versioning | | |
+||Package publishing| | Publish libraries to NPM or Github packages|
+||Release Strategies|||
+|**Deployments**| | |
+||Cloud Infrastructure||Automated cloud infrastructure creation and scaling|
+||Domain names||Use custom domains and route to applications or services based on sub-domains or paths.|
+||Providers||Currently supports AWS, with support for others coming soon.|
+
+
 
 ### Logging
 
