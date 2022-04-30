@@ -2,26 +2,20 @@
 
 <img alt="SrcLaunch Logo" src="https://raw.githubusercontent.com/srclaunch/.github/main/profile/logo-wide-dark-bg.svg?#gh-dark-mode-only" width="300" /><br /><br />
 
-![GitHub followers](https://img.shields.io/github/followers/srclaunch?style=social) ![Stars](https://img.shields.io/github/stars/srclaunch?style=social) 
+![GitHub followers](https://img.shields.io/github/followers/srclaunch?style=social) ![Stars](https://img.shields.io/github/stars/srclaunch?style=social)
 
-SrcLaunch is a platform built with the goal of eliminating repetitive software engineering tasks so engineers 
-can focus on releasing features. 
+SrcLaunch is a platform built with the goal of eliminating repetitive software engineering tasks so engineers
+can focus on releasing features.
 
 Currently, work is focused on finishing the SrcLaunch CLI application which can
 be used to used to quickly create SrcLaunch projects from templates that are created
 for the specific use-case and pre-configured with tooling and project code scaffolding
 that help support software engineering best practices and quick feature iteration.
 
-The SrcLaunch Core Web Application is used to manage and configure a business or 
-individual's organization settings and integrations, along with the organization's 
-Workspaces and Projects. One click creation of projects with source control, 
-pipelines for continuous integration, and automated deployment is the paramount
-feature of SrcLaunch. 
-
-Ultimately the goal is full feature parity between the CLI application and
-the SrcLaunch Core Platform web application. 
+<!--  -->
 
 ## Features
+
 <!-- ###### Feature Statuses
 | Icon | Status | Description |
 |:----:|:-------|:------------|
@@ -29,7 +23,12 @@ the SrcLaunch Core Platform web application.
 | 🚧 | In-Progress | Features with defined specs that are currently being worked on.|
 | ✅ | Complete | Features whose requirements have been met, and have been released. -->
 
+The SrcLaunch Core Web Application is used to configure a business or
+individual or organization's settings and integrations, along with the organization's
+Workspaces and Projects.
 
+Ultimately the goal is full feature parity between the CLI application and
+the SrcLaunch Core Platform web application.
 
 <!-- ###### Feature Statuses
 | Icon | Status | Description |
@@ -39,133 +38,140 @@ the SrcLaunch Core Platform web application.
 | ✅ | Complete | Features whose requirements have been met, and have been released. -->
 
 ### Workspaces
-Workspaces are used to silo projects and organize them into logical groups for access control and cost tracking.
+
+Workspaces are used to silo projects and organize them into logical groups for access control and cost tracking. One click creation of project templates with source control and
+pipelines for continuous integration, and automated deployment is the paramount
+feature of SrcLaunch.
 
 ### Projects
+
 You can create many types of projects with SrcLaunch, such as Web applications, Node.js services, and Machine Learning classifiers, among many others.
 
 #### Applications
 
-| Type | Description |
-|:-----|:------------|
-| Web Application | A browser based application that can be deployed as a static site or served and rendered using SSR. |
-| Mobile Application | iOS and Android applications. |
-| Desktop Applications | macOS, Windows, and Linux applications. |
-| CLI Application | A command line interface application. |
-| Universal Applications | Single codebase application that be can be used on all platforms. |
+| Type                   | Description                                                                                         |
+| :--------------------- | :-------------------------------------------------------------------------------------------------- |
+| Web Application        | A browser based application that can be deployed as a static site or served and rendered using SSR. |
+| Mobile Application     | iOS and Android applications.                                                                       |
+| Desktop Applications   | macOS, Windows, and Linux applications.                                                             |
+| CLI Application        | A command line interface application.                                                               |
+| Universal Applications | Single codebase application that be can be used on all platforms.                                   |
 
 #### Services
 
-| Type | Description |
-|:-----|:------------|
-| API Server | Define routes, permissions and endpoint logic to quickly deploy a containerized service. |
-| CoreAPI Server | Configure data model source for automatic CRUD endpoint generation. |
-| Node.js Service | Write a Node.js service that runs continuously or on demand. |
-| User Authentication | Create and configure a user authentication service with MFA and role based access control. Can be used to manage user access for any of your applications or services. |
-| Task Queue | Create a task queue service to handle asynchronous, long-running tasks. |
-| Webhook | Create a Webhook to handle events from 3rd party services and integrations. |
-| WebSocket Server | Send and receive data in real-time via WebSockets. |
-| Machine Learning Classifier | Write a machine learning classifier that can be deployed as a service. |
-| Webhook | Create a Webhook to handle events from 3rd party services and integrations. |
-| Pipeline | A Pipeline can be created to automate delivery of data between services based on customizable rules. |
+| Type                        | Description                                                                                                                                                            |
+| :-------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| API Server                  | Define routes, permissions and endpoint logic to quickly deploy a containerized service.                                                                               |
+| CoreAPI Server              | Configure data model source for automatic CRUD endpoint generation.                                                                                                    |
+| Node.js Service             | Write a Node.js service that runs continuously or on demand.                                                                                                           |
+| User Authentication         | Create and configure a user authentication service with MFA and role based access control. Can be used to manage user access for any of your applications or services. |
+| Task Queue                  | Create a task queue service to handle asynchronous, long-running tasks.                                                                                                |
+| Webhook                     | Create a Webhook to handle events from 3rd party services and integrations.                                                                                            |
+| WebSocket Server            | Send and receive data in real-time via WebSockets.                                                                                                                     |
+| Machine Learning Classifier | Write a machine learning classifier that can be deployed as a service.                                                                                                 |
+| Webhook                     | Create a Webhook to handle events from 3rd party services and integrations.                                                                                            |
+| Pipeline                    | A Pipeline can be created to automate delivery of data between services based on customizable rules.                                                                   |
 
+#### Integrations
+
+| Type       | Description                  |
+| :--------- | :--------------------------- |
+| GitHub App | Create a GitHub application. |
 
 ### DX
 
-Developer Experience features that help in configuring the development environment around best practices for the specific platform or build target. 
+Development environment configurations and tooling based on best practices for a specific platform or build target. Includes the following configuration and linters:
 
-|  | Feature | Status | Description |
-|:---------|:--------|:------:|:------------|
-|**Code Quality**| |🚧 | Code quality configurations for specific project types and targets.||
-||ESLint| ✅ ||
-||Prettier| ✅ ||
-||Stylelint| ✅ ||
-||TypeScript| ✅ ||
-|**Testing** | ||
-||Ava | ✅ ||
-||Jest | ✅ ||
-|**Releasing**|||
-||Conventional Commits| 🚧 ||
-||Versionlint| 🚧 ||
+| Linter       | Description                                                                                                                                                    |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eslint`     | [ESLint](https://eslint.org/) is a JavaScript code quality tool that checks your code for errors, helps you write better code, and rewards you for writing it. |
+| `prettier`   | [Prettier](https://prettier.io/) is a tool to format your code according to a preset style.                                                                    |
+| `stylelint`  | [Stylelint](https://stylelint.io/) is a mighty, modern linter that helps you avoid errors and enforce conventions in your styles.                              |
+| `commitlint` | [Commitlint](https://commitlint.js.org/) is a tool to enforce a consistent commit message format.                                                              |
+
+| Configuration      | Description                                                                                                                                                                                               |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `typescript`       | [TypeScript](https://www.typescriptlang.org/) is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.                                                 |
+| `jest`             | [Jest](https://jestjs.io/) is a delightful JavaScript Testing Framework with a focus on simplicity.                                                                                                       |
+| `ava`              | [AVA](https://github.com/avajs/ava) is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence. |
+| `standard-version` | [Standard Version](https://github.com/conventional-changelog/standard-version) is utility for versioning using semver and CHANGELOG generation powered by Conventional Commits.                           |
 
 ### Core Objects
 
 Core Objects are business-case specific custom objects that make up the data layer of a SrcLaunch application or service.
 
-|  | Feature | Status | Description |
-|:-----|:--------|:------:|:------------|
-| **Data Modeling** | | | Global data model definitions|
-| **Code Generation** | | | Libraries for performing operations on Core Objects.
-||`core-api`| ✅ | CoreAPI server configured with CRUD endpoints for Core Objects.
-||`http-client`| ✅ | Instance of HttpClient from `@srclaunch/http-client` with CRUD request endpoints configured for the CoreAPI.
-||`redux-state`| ✅ | Redux State and actions for managing Core Objects.
-||`sequelize-models`| ✅ | Sequelize model definitions.
-||`types`| ✅ | TypeScript type definitions for Core Objects.
+|                     | Feature            | Status | Description                                                                                                  |
+| :------------------ | :----------------- | :----: | :----------------------------------------------------------------------------------------------------------- |
+| **Data Modeling**   |                    |        | Global data model definitions                                                                                |
+| **Code Generation** |                    |        | Libraries for performing operations on Core Objects.                                                         |
+|                     | `core-api`         |   ✅   | CoreAPI server configured with CRUD endpoints for Core Objects.                                              |
+|                     | `http-client`      |   ✅   | Instance of HttpClient from `@srclaunch/http-client` with CRUD request endpoints configured for the CoreAPI. |
+|                     | `redux-state`      |   ✅   | Redux State and actions for managing Core Objects.                                                           |
+|                     | `sequelize-models` |   ✅   | Sequelize model definitions.                                                                                 |
+|                     | `types`            |   ✅   | TypeScript type definitions for Core Objects.                                                                |
 
 ### Infrastructure
 
-|  | Feature | Status | Description |
-|:--------|:-------------|:------:|:------------|
-|**Source Control**| | | |
-||Git||Integrates with Github, with support for GitLab planned.|
-||Templates||Get started quickly with a pre-configured and customizable project template.|
-|**Releases**| | | |
-||Versioning | | |
-||Package publishing| | Publish libraries to NPM or Github packages|
-||Release Strategies|||
-|**Deployments**| | |
-||Cloud Infrastructure||Automated cloud infrastructure creation and scaling|
-||Domain names||Use custom domains and route to applications or services based on sub-domains or paths.|
-||Providers||Currently supports AWS, with support for others coming soon.|
-
-
+|                    | Feature              | Status | Description                                                                             |
+| :----------------- | :------------------- | :----: | :-------------------------------------------------------------------------------------- |
+| **Source Control** |                      |        |                                                                                         |
+|                    | Git                  |        | Integrates with Github, with support for GitLab planned.                                |
+|                    | Templates            |        | Get started quickly with a pre-configured and customizable project template.            |
+| **Releases**       |                      |        |                                                                                         |
+|                    | Versioning           |        |                                                                                         |
+|                    | Package publishing   |        | Publish libraries to NPM or Github packages                                             |
+|                    | Release Strategies   |        |                                                                                         |
+| **Deployments**    |                      |        |
+|                    | Cloud Infrastructure |        | Automated cloud infrastructure creation and scaling                                     |
+|                    | Domain names         |        | Use custom domains and route to applications or services based on sub-domains or paths. |
+|                    | Providers            |        | Currently supports AWS, with support for others coming soon.                            |
 
 ### Logging
 
 | Feature | Sub-features | Status | Description |
-|:--------|:-------------|:------:|:------------|
+| :------ | :----------- | :----: | :---------- |
 
 ### Exception Handling
 
 | Feature | Sub-features | Status | Description |
-|:--------|:-------------|:------:|:------------|
+| :------ | :----------- | :----: | :---------- |
 
 ### Accessibility
 
 | Feature | Sub-features | Status | Description |
-|:--------|:-------------|:------:|:------------|
+| :------ | :----------- | :----: | :---------- |
 
 ### Internationalization
 
 | Feature | Sub-features | Status | Description |
-|:--------|:-------------|:------:|:------------|
+| :------ | :----------- | :----: | :---------- |
 
 ### UI Component Library
 
 | Feature | Sub-features | Status | Description |
-|:--------|:-------------|:------:|:------------|
+| :------ | :----------- | :----: | :---------- |
 
 ### CLI Tool
 
-| Command | Sub-command  | Status | Description |
-|:--------|:-------------|:------:|:------------|
-| `changeset` |              |        |             |
-|         | `add`     |        |             |
-|         | `list`          |        |             |
-|         | `delete`       |        |             |
-| `build` |              |        |             |
-|         | `esbuild`      |        |             |
-|         | `swc`          |        |             |
-|         | `parcel`       |        |             |
-|         | `vite`         |        |             |
-|         | `types`   |        |             |
-| `test`  |              |        |             |
-|         | `ava`          |        |             |
-|         | `coverage`         |        |             |
-|         | `jest`         |        |             |
-|`release`|              |        |             |
+| Command     | Sub-command | Status | Description |
+| :---------- | :---------- | :----: | :---------- |
+| `changeset` |             |        |             |
+|             | `add`       |        |             |
+|             | `list`      |        |             |
+|             | `delete`    |        |             |
+| `build`     |             |        |             |
+|             | `esbuild`   |        |             |
+|             | `swc`       |        |             |
+|             | `parcel`    |        |             |
+|             | `vite`      |        |             |
+|             | `types`     |        |             |
+| `test`      |             |        |             |
+|             | `ava`       |        |             |
+|             | `coverage`  |        |             |
+|             | `jest`      |        |             |
+| `release`   |             |        |             |
 
---- 
+---
 
 ## Libraries
 
@@ -174,12 +180,10 @@ Core Objects are business-case specific custom objects that make up the data lay
 | Icon | Name | Description |
 |:----:|:-----------|:-----------|
 | 🔴 | Broken | Cannot be used at the present time.
-| 🟠 | Unstable | Can be used, but some features may be missing or don't function correctly. 
+| 🟠 | Unstable | Can be used, but some features may be missing or don't function correctly.
 | 🟢 | Stable | Stable and follows semantic versioning guidelines. -->
 
-
-
-### [@srclaunch/a11y](https://github.com/srclaunch/a11y) 
+### [@srclaunch/a11y](https://github.com/srclaunch/a11y)
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/a11y?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/a11y?style=social)
 
@@ -193,7 +197,7 @@ Accessibility utilities and helpers.
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/actions?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/actions?style=social)
 
-Actions (send an email, submit a form, create a record, etc) that can be invoked by SrcLaunch applications, services, tasks and pipelines. 
+Actions (send an email, submit a form, create a record, etc) that can be invoked by SrcLaunch applications, services, tasks and pipelines.
 
 [![Issues](https://img.shields.io/github/issues/srclaunch/actions?label=Issues)](https://github.com/srclaunch/actions/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/actions?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/actions) [![Build](https://github.com/srclaunch/actions/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/actions/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/actions?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/actions)
 
@@ -204,7 +208,6 @@ Actions (send an email, submit a form, create a record, etc) that can be invoked
 ![Stars](https://img.shields.io/github/stars/srclaunch/cli?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/cli?style=social)
 
 CLI tool for managing SrcLaunch Workspaces and Projects.
-
 
 [![Issues](https://img.shields.io/github/issues/srclaunch/cli?label=Issues)](https://github.com/srclaunch/cli/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/cli?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/cli) [![Build](https://github.com/srclaunch/cli/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/cli/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/cli?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/cli)
 
@@ -220,7 +223,7 @@ Utilities for managing a CoreAPI server instance.
 
 ---
 
- ### [@srclaunch/cx](https://github.com/srclaunch/cx)
+### [@srclaunch/cx](https://github.com/srclaunch/cx)
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/cx?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/cx?style=social)
 
@@ -253,7 +256,6 @@ Re-usable DX tooling configuration (linting, testing, build, etc) for various pr
 ### [@srclaunch/exceptions](https://github.com/srclaunch/exceptions)
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/exceptions?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/exceptions?style=social)
-
 
 Exception handling and remediation utilities and helpers.
 
@@ -341,7 +343,6 @@ Build, deployment, and other pipeline configurations and utilities.
 
 ---
 
-
 ### [@srclaunch/queues](https://github.com/srclaunch/queues)
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/queues?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/queues?style=social)
@@ -375,7 +376,6 @@ Secret management and retrieval.
 ### [@srclaunch/themes](https://github.com/srclaunch/themes)
 
 ![Stars](https://img.shields.io/github/stars/srclaunch/themes?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/srclaunch/themes?style=social)
-
 
 UI themes library
 
@@ -440,4 +440,3 @@ Redux state implementation and utilities.
 Web browser environment specific utilities and helpers.
 
 [![Issues](https://img.shields.io/github/issues/srclaunch/web-environment?label=Issues)](https://github.com/srclaunch/web-environment/issues) [![Coveralls](https://img.shields.io/coveralls/github/srclaunch/web-environment?label=Test%20Coverage)](https://coveralls.io/github/srclaunch/web-environment) [![Build](https://github.com/srclaunch/web-environment/actions/workflows/publish.yml/badge.svg)](https://github.com/srclaunch/web-environment/actions/workflows/publish.yml) [![npms.io (final)](https://img.shields.io/npms-io/final-score/@srclaunch/web-environment?label=NPMS%20Score)](https://npms.io/search?q=@srclaunch/web-environment)
-
